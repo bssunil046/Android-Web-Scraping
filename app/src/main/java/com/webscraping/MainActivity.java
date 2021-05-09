@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         edtUrl = findViewById(R.id.edtUrl);
         btnSubmit = findViewById(R.id.btnSubmit);
 
-        edtUrl.setText("https://google.com/");
+        edtUrl.setText("https://example.com/");
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override

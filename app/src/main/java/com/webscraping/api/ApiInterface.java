@@ -6,5 +6,5 @@ import retrofit2.http.GET;
 
 public interface ApiInterface {
     @GET("/")
-    Call<ResponseBody> url();
+    Call<String> url();
 }
