@@ -9,7 +9,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 public class ApiClient {
     private static Retrofit retrofit = null;
 
-    public static Retrofit getClient(Context context, String url) {
+    public static Retrofit getClient(String url) {
         if(retrofit == null) {
             OkHttpClient okHttpClient = new OkHttpClient().newBuilder().build();
 
